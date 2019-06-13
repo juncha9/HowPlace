@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:background="@color/quantum_orange"
+        android:textColor="@color/quantum_white_100"
+        android:padding="5dp"
+        android:text="선호도 조사" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textSize="15dp"
+        android:text="선호하는 카테고리를 선택해주세요!" />
+
+    <CheckBox
+        android:id="@+id/cb_restaurant"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:text="음식점" />
+
+    <CheckBox
+        android:id="@+id/cb_cafe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:text="카페" />
+
+    <CheckBox
+        android:id="@+id/cb_subway"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:text="지하철" />
+
+    <CheckBox
+        android:id="@+id/cb_theater"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:text="영화관" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="제출하기" />
+
+</LinearLayout>

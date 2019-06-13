@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">HowPlace</string>
+    <string name="notify_enable_location">위치정보가 활성화 되었습니다.</string>
+    <string name="notify_disable_location">위치정보가 비활성화 되었습니다.</string>
+    <string name="notify_notable_location">위치정보를 활성화 할 수 없습니다.</string>
+    <string name="notify_items_empty">장소가 존재하지 않습니다</string>
+    <string name="notify_has_no_permission">권한이 존재하지 않습니다</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="text_isOpen">"영업 중"</string>
+
+</resources>
+
+

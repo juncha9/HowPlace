@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#F0A94D</color>
+    <color name="colorPrimaryDark">#F0A94D</color>
+    <color name="colorAccent">#F57C00</color>
+    <color name="colorNormal">@color/quantum_grey900</color>
+    <color name="color_base">#FCF7ED</color>
+    <color name="color_smooth">#CAC5BA</color>
+    <color name="color_cafe">#5E4B45</color>
+    <color name="color_restaurant">#E45642</color>
+    <color name="color_subway">#44B4C0</color>
+    <color name="color_theater">#7B8D8F</color>
+    <color name="color_link">#F8422E</color>
+</resources>
