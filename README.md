@@ -8,7 +8,7 @@
 
 Api를 포함하는 파일을 넣어주어야 컴파일 에러를 피할 수 있습니다.
 
-#keys.c (./app/src/main/jni/keys.c)
+# keys.c (./app/src/main/jni/keys.c)
 ```
 #include <jni.h>
 
@@ -48,7 +48,7 @@ Java_com_alkemic_howplace_Define_getSubwayKey(JNIEnv *env, jclass type) {
 
 ```
 
-#res (./app/src/main/res/values/google_maps_api.xml)
+# res (./app/src/main/res/values/google_maps_api.xml)
 ```
 <resources>
     <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">
@@ -57,7 +57,7 @@ Java_com_alkemic_howplace_Define_getSubwayKey(JNIEnv *env, jclass type) {
 </resources>
 ```
 
-#google-services.json (./app/google-services.json)
+# google-services.json (./app/google-services.json)
 ```
 파이어베이스 json
 (파이어베이스 홈페이지에서 발급)
