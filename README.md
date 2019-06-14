@@ -52,7 +52,7 @@ Java_com_alkemic_howplace_Define_getSubwayKey(JNIEnv *env, jclass type) {
 ```
 <resources>
     <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">
-    { YourGoogleApiKey(Include: MapsSDKforAndroid) }
+    {YourGoogleApiKey(Include: MapsSDKforAndroid)}
     </string>
 </resources>
 ```
