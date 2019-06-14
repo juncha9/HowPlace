@@ -49,7 +49,7 @@ Java_com_alkemic_howplace_Define_getSubwayKey(JNIEnv *env, jclass type) {
 
 ```
 
-# res
+# google_maps_api.xml
 ### (./app/src/main/res/values/google_maps_api.xml)
 ```
 <resources>
