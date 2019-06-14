@@ -12,6 +12,7 @@ import com.alkemic.howplace.Item.Item;
 import com.alkemic.howplace.Singletone.ItemManager;
 import com.alkemic.howplace.Singletone.LocationChecker;
 import com.alkemic.howplace.R;
+import com.google.android.gms.common.api.Api;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.MapFragment;
@@ -32,6 +33,7 @@ public class MapActivity extends AppCompatActivity implements OnMapReadyCallback
         nameText = findViewById(R.id.textView_map_name);
         nameText.setText(item.getName());
         MapFragment mapFragment = (MapFragment) getFragmentManager().findFragmentById(R.id.map);
+
         mapFragment.getMapAsync(this);
     }
 

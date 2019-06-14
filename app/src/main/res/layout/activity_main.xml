@@ -12,11 +12,11 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="HOWPLACE"
+        android:text="지금여기"
         android:textColor="@color/quantum_white_text"
         android:textSize="30dp"
         android:textAlignment="center"
-        android:background="@color/colorAccent"
+        android:background="@color/colorPrimary"
         android:layout_weight="0"
         />
     <TextView

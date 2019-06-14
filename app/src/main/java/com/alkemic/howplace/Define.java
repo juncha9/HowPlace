@@ -22,7 +22,6 @@ public class Define {
         return acos(sin(dLat1)*sin(dLat2) + cos(dLat1)*cos(dLat2)*cos(dLon1 - dLon2));
     }
     public static synchronized native String getWebApiKey();
-    public static synchronized native String getAppApiKey();
     public static synchronized native String getNaverClientID();
     public static synchronized native String getNaverClientSecret();
     public static synchronized native String getSubwayKey();

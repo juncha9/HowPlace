@@ -71,7 +71,7 @@ public class InfoFinder {
     public boolean Initialize(Context context)
     {
         this.context = context;
-        Places.initialize(context, Define.getAppApiKey());
+        Places.initialize(context, Define.getWebApiKey());
         placeClient = Places.createClient(context);
         httpClient = new OkHttpClient();
         TimerTask timerTask = new TimerTask()
@@ -140,13 +140,11 @@ public class InfoFinder {
             super();
             this.items = items;
         }
-
         @Override
         protected void onPreExecute() {
             super.onPreExecute();
             tasks.clear();
         }
-
         @Override
         protected Void doInBackground(Void... voids) {
             for (Item item : items)
@@ -188,18 +186,15 @@ public class InfoFinder {
             }
             return null;
         }
-
         @Override
         protected void onPostExecute(Void aVoid) {
             super.onPostExecute(aVoid);
         }
-
         @Override
         protected void onCancelled(Void aVoid) {
             super.onCancelled(aVoid);
         }
     }
-
     private void UpdateSubway()
     {
         TaskEventListner taskEventListner = new TaskEventListner() {
@@ -220,7 +215,6 @@ public class InfoFinder {
             subwayTasks.add(task);
         }
     }
-
     private class SubwayUpdateTask extends AsyncTask <Void, Void, Void>
     {
         SubwayItem item;
@@ -345,7 +339,7 @@ public class InfoFinder {
             subwayName = subwayName.replace("역", "");
             //String prefix = "http://swopenAPI.seoul.go.kr/api/subway//json/realtimeStationArrival/0/2/까치산";
             String prefix = "http://swopenAPI.seoul.go.kr/api/subway";
-            String key = "sample";
+            String key = Define.getSubwayKey();
             String docType = "json";
             String service = "realtimeStationArrival";
             String start = "0";
@@ -448,8 +442,6 @@ public class InfoFinder {
             }
         }
     }
-
-
     private class SearchShopTask extends AsyncTask <Void,Void,Void>
     {
         ShopItem item;
@@ -562,7 +554,6 @@ public class InfoFinder {
             }
         }
     }
-
     private class SearchBlogTask extends AsyncTask <Void,Void,Void>
     {
         ShopItem item;
