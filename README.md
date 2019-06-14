@@ -60,7 +60,10 @@ Java_com_alkemic_howplace_Define_getSubwayKey(JNIEnv *env, jclass type) {
 이 프로그램은 오픈소스 라이브러리를 사용하였습니다.
 좋은 라이브러리를 제공해준 분들께 감사합니다!
 
-tbruyelle/RxPermissions (https://github.com/tbruyelle/RxPermissions)]
+tbruyelle/RxPermissions (https://github.com/tbruyelle/RxPermissions)
+
 JakeWharton/RxBinding (https://github.com/JakeWharton/RxBinding)
+
 square/okhttp (https://github.com/square/okhttp)
+
 jhy/jsoup (https://github.com/jhy/jsoup/)
