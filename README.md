@@ -58,6 +58,9 @@ Java_com_alkemic_howplace_Define_getSubwayKey(JNIEnv *env, jclass type) {
 ```
 
 #google-services.json (./app/google-services.json)
-파이어베이스 정보 파일
+```
+파이어베이스 json
+(파이어베이스 홈페이지에서 발급)
+```
 
 
